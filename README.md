@@ -43,7 +43,7 @@ But just trust me on this, this is going to be good.
 
 Powerful polyfills for the new custom elements api that allows us to start using this exceptionally powerfull technology today.
 
-[Rebound](https://github.com/epicmiller/rebound) is a Model-View-Component framework build on Backbone. Rebound replaces Backbone's view layer with HTMLBars templates, binding to your models to the dom on render and live updating your page as they change. To make the conversation two-way, event helpers and automatic binding to form elements lets you respond to user interaction. Combine this with an augmented but still powerfully simple router and package it all in the new W3 Web Components, and you get an amazingly small but powerful framework to develop data-bound single page apps.
+[Rebound](https://github.com/reboundjs/rebound) is a Model-View-Component framework build on Backbone. Rebound replaces Backbone's view layer with HTMLBars templates, binding to your models to the dom on render and live updating your page as they change. To make the conversation two-way, event helpers and automatic binding to form elements lets you respond to user interaction. Combine this with an augmented but still powerfully simple router and package it all in the new W3 Web Components, and you get an amazingly small but powerful framework to develop data-bound single page apps.
 
 So we remove Backbone's most annoying 'feature' - manual data binding – while avoiding the overhead, proprietary convention restrictions and learning curve of Ember. And unlike some of the very few other data-binding libraries out there (heres looking at you React, epoxyjs, knockoutjs, etc), we get the simple interface of the much-loved Handlebars syntax for our templates, without any extra elements or data attributes cluttering our DOM! Server side rendering of data-bound templates will be possible in the near future! Whats there not to love?!
 
@@ -67,7 +67,7 @@ The project is still in flux, so everything below is subject to change! Use at y
 Rebound is available via bower if you so please:
 ```bower install reboundjs```
 
-There are two packaged files called ```rebound.runtime.js``` and ```rebound.compiler.js```. Both of these files contain [RequireJS](requirejs.org), [Backbone](backbonejs.org), various shims for compatability back to IE9, [HTMLBars](https://github.com/tildeio/htmlbars) and of course, the main Rebound library. The compiler package contains the extra code needed to compile HTMLBars templates client side and should rarely be needed on any user facing site. At the moment, all templates should be precompiled on the server by a pre-compiler, like [Grunt-Rebound](https://github.com/epicmiller/grunt-rebound), or a similar plugin.
+There are two packaged files called ```rebound.runtime.js``` and ```rebound.compiler.js```. Both of these files contain [RequireJS](requirejs.org), [Backbone](backbonejs.org), various shims for compatability back to IE9, [HTMLBars](https://github.com/tildeio/htmlbars) and of course, the main Rebound library. The compiler package contains the extra code needed to compile HTMLBars templates client side and should rarely be needed on any user facing site. At the moment, all templates should be precompiled on the server by a pre-compiler, like [Grunt-Rebound](https://github.com/reboundjs/grunt-rebound), or a similar plugin.
 
 ### How do I get Rebound on my page?
 
